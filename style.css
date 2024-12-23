@@ -16,7 +16,7 @@ body {
 
 form {
     margin: 20px;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #444;
     background: #1c1c1c;
     display: flex;
@@ -53,17 +53,17 @@ input[type="submit"] {
     padding: 12px 24px;
     cursor: pointer;
     border-radius: 4px;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover animation */
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 input[type="submit"]:hover {
     background-color: #33aa33;
-    transform: scale(1.1); /* Button grows slightly on hover */
+    transform: scale(1.1);
 }
 
 input[type="submit"]:active {
     background-color: #28a828;
-    transform: scale(1.05); /* Slight shrink effect on click */
+    transform: scale(1.05);
 }
 
 canvas {
@@ -74,11 +74,11 @@ canvas {
     border-radius: 8px;
     background-color: #222;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    animation: zoomIn 1s ease-out; /* Zoom-in animation for canvas */
+    animation: zoomIn 1s ease-out;
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 3em;
     margin: 10px;
 }
 
